@@ -1,0 +1,77 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9962467c-5981-4f6d-a8e0-b5534b13e1af)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 115.57 97.79) (xy 146.05 97.79))
+    (stroke (width 0) (type default))
+    (uuid 4e49023e-96b3-4bfc-ac77-63dd8b4b5ad8)
+  )
+  (wire (pts (xy 115.57 109.22) (xy 146.05 109.22))
+    (stroke (width 0) (type default))
+    (uuid 6efd289f-9225-4db6-a956-1e074f6021fe)
+  )
+
+  (sheet (at 87.63 88.9) (size 27.94 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1c63b030-1338-4c8f-b90e-7cfa0706ad96)
+    (property "Sheetname" "Power Supply" (at 87.63 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power Supply.kicad_sch" (at 87.63 132.6646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "+5V" bidirectional (at 115.57 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid b5efab22-390b-4aff-8846-5f2d014f77d9)
+    )
+    (pin "GND" bidirectional (at 115.57 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid d85acd4b-842a-46c4-ad94-cb0c495c6bdc)
+    )
+    (pin "+3.3V" bidirectional (at 115.57 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid adfb3f49-5f94-494c-bbd8-a9431930a13e)
+    )
+    (instances
+      (project "main"
+        (path "/9962467c-5981-4f6d-a8e0-b5534b13e1af" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 146.05 83.82) (size 20.32 46.99) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ba6f3c8f-e1b6-417b-bbf8-ab5ddf6d03b4)
+    (property "Sheetname" "ATMEGA2560" (at 146.05 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 146.05 131.3946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "GND" bidirectional (at 146.05 109.22 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a00fa262-ada7-4011-ba91-aade8ef984c0)
+    )
+    (pin "Vcc" bidirectional (at 146.05 97.79 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2a6e79ec-3264-428f-a6c5-063129c4136e)
+    )
+    (instances
+      (project "main"
+        (path "/9962467c-5981-4f6d-a8e0-b5534b13e1af" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

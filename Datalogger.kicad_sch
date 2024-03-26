@@ -1,0 +1,77 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9962467c-5981-4f6d-a8e0-b5534b13e1af)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 110.49 101.6) (xy 128.27 101.6))
+    (stroke (width 0) (type default))
+    (uuid 2817dc3e-10e2-4cd5-b823-21ef4314141a)
+  )
+  (wire (pts (xy 110.49 93.98) (xy 128.27 93.98))
+    (stroke (width 0) (type default))
+    (uuid 912b888e-5072-4eca-a651-5be10008fa47)
+  )
+
+  (sheet (at 87.63 88.9) (size 22.86 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1c63b030-1338-4c8f-b90e-7cfa0706ad96)
+    (property "Sheetname" "Power Supply" (at 87.63 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power Supply.kicad_sch" (at 87.63 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "+3.3V" bidirectional (at 110.49 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid d0d86774-f961-47f2-9c35-f9698ca38520)
+    )
+    (pin "GND" bidirectional (at 110.49 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ab348d32-b868-4b11-8e8a-3dc86d49dba4)
+    )
+    (pin "+5V" bidirectional (at 110.49 93.98 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 744deb2e-6bda-4950-a45f-af3a8bf9ead7)
+    )
+    (instances
+      (project "Datalogger"
+        (path "/9962467c-5981-4f6d-a8e0-b5534b13e1af" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 128.27 87.63) (size 17.78 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ee878566-5439-457f-ab48-c4229bf066b8)
+    (property "Sheetname" "ATMEGA2560" (at 128.27 86.9184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 128.27 123.7746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "GND" bidirectional (at 128.27 101.6 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 3acf1c6b-35b8-4a34-9baa-46e7372324f0)
+    )
+    (pin "+5V" bidirectional (at 128.27 93.98 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 037151eb-4ad8-49b9-a9f9-18178ed523f0)
+    )
+    (instances
+      (project "Datalogger"
+        (path "/9962467c-5981-4f6d-a8e0-b5534b13e1af" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
