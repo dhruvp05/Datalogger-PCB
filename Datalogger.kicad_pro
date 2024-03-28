@@ -409,7 +409,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "SS34"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -500,6 +502,10 @@
     [
       "ee878566-5439-457f-ab48-c4229bf066b8",
       "ATMEGA2560"
+    ],
+    [
+      "1748a4a9-cae4-49be-94cd-918e7d682196",
+      "Relay"
     ]
   ],
   "text_variables": {}
