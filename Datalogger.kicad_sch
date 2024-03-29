@@ -24,6 +24,10 @@
     (stroke (width 0) (type default))
     (uuid 912b888e-5072-4eca-a651-5be10008fa47)
   )
+  (wire (pts (xy 146.05 97.79) (xy 170.18 97.79))
+    (stroke (width 0) (type default))
+    (uuid afeb77bb-c1d0-4dd7-8598-c938298774bc)
+  )
 
   (sheet (at 170.18 90.17) (size 17.78 16.51) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
@@ -42,6 +46,10 @@
     (pin "Relay_2" bidirectional (at 170.18 101.6 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 955c8a18-ecdd-4941-a893-26c3093db701)
+    )
+    (pin "MTR_CTRL" bidirectional (at 170.18 97.79 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 11007887-ce1c-4e1b-a44a-023e8c54675d)
     )
     (instances
       (project "Datalogger"
@@ -104,6 +112,10 @@
     (pin "Relay_2" bidirectional (at 146.05 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 14a28e64-722b-4155-86d4-6856851f686a)
+    )
+    (pin "MTR_CTRL" bidirectional (at 146.05 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ce917434-2780-46f1-a180-11f5ce2bbbe0)
     )
     (instances
       (project "Datalogger"
