@@ -508,6 +508,10 @@
     [
       "1748a4a9-cae4-49be-94cd-918e7d682196",
       "Relay"
+    ],
+    [
+      "bec5d8ac-9217-401d-91a9-edf319adff28",
+      "Digital Pin"
     ]
   ],
   "text_variables": {}

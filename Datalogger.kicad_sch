@@ -87,6 +87,26 @@
     )
   )
 
+  (sheet (at 60.96 40.64) (size 21.59 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bec5d8ac-9217-401d-91a9-edf319adff28)
+    (property "Sheetname" "Digital Pin" (at 60.96 39.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "digital.kicad_sch" (at 60.96 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 60.96 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Datalogger"
+        (path "/9962467c-5981-4f6d-a8e0-b5534b13e1af" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 128.27 87.63) (size 17.78 35.56) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
