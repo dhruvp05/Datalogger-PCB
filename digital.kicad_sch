@@ -1559,6 +1559,17 @@
     (uuid fbf1112c-52b1-4086-aeb4-39cb39b97ac9)
   )
 
+  (rectangle (start 95.25 69.85) (end 220.98 147.32)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid c28c040f-ce75-4202-a64a-c8e278ac1212)
+  )
+
+  (text "Digital I/O" (at 99.06 144.78 0)
+    (effects (font (size 1.651 1.651)) (justify left bottom))
+    (uuid d601829f-41ba-417b-b8c5-6e21f26f1814)
+  )
+
   (hierarchical_label "DIN1" (shape bidirectional) (at 207.01 119.38 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1ddfda44-706c-4618-a62f-a1c7173bfa90)
