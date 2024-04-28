@@ -1,7 +1,5 @@
 # Datalogger PCB
 
-## Images
-
 ### Root
 
 ![Root](root.jpg)
