@@ -1,6 +1,4 @@
-# Project Title
-
-This is a README.md file for the project. Here's a brief overview of what this project is about.
+# Datalogger PCB
 
 ## Images
 
