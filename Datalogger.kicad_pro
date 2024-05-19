@@ -174,7 +174,7 @@
       "track_widths": [
         0.0,
         0.0,
-        0.0,
+        0.2,
         0.254,
         0.3048,
         0.381,
@@ -509,6 +509,10 @@
     [
       "bec5d8ac-9217-401d-91a9-edf319adff28",
       "Digital Pin"
+    ],
+    [
+      "794c25a5-7a0f-4a8c-983c-67e09fe08f11",
+      "4-20mA_sensor"
     ]
   ],
   "text_variables": {}
